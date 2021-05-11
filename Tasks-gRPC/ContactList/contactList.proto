@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option go_package = "example.com/ContactList";
+
+package ContactList;
+
+message ContactList {
+	string name = 1;
+	int32 phoneNumber = 2;
+}

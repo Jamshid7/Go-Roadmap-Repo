@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option go_package = "example.com/TaskList";
+
+package TaskList;
+
+message TaskList {
+	string taskName = 1;
+	string taskDate = 2;
+}
