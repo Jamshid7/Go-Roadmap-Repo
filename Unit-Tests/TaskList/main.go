@@ -1,14 +1,16 @@
-package TaskList
+package main
+
 import "fmt"
+
 type TaskList struct {
-    TaskName string
-    TaskDate string
+	TaskName string
+	TaskDate string
 }
 
-func (t TaskList) GetTask(singleTask, singleDate string) string{
+func (t TaskList) GetTask(singleTask, singleDate string) string {
 	t.TaskName = singleTask
 	t.TaskDate = singleDate
-	return t.TaskName + t.TaskDate	  
+	return t.TaskName + t.TaskDate
 }
 
 //just to check it here also
